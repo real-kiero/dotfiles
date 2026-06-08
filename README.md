@@ -1,16 +1,13 @@
 # Dotfiles
 
-My personal global config files for bash, tmux, gitignore and pyright. 
-Install Zoxide, Neovim, and optionally Pyenv/NVM for everything to work. For tmux, grab TPM (Tmux Plugin Manager) and run `prefix + I` inside tmux to install plugins.
+My personal global config files for bash, neovim, and pyright. Run `install.sh` to symlink configs and clone the neovim config.
 
 ## Dependencies
 
 **Required:**
-- [Neovim](https://neovim.io/) (≥0.9.0 for Telescope)
+- [Neovim](https://neovim.io/) (≥0.9.0)
 - [Starship](https://starship.rs/) - Shell prompt
 - [Zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter cd command
-- [Tmux](https://github.com/tmux/tmux)
-- [TPM](https://github.com/tmux-plugins/tpm) - Tmux Plugin Manager
 
 **Optional:**
 - [Pyenv](https://github.com/pyenv/pyenv) - Python version management
