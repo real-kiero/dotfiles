@@ -12,7 +12,6 @@ link() {
 
 echo "==> shell"
 link "$DOTFILES/.bashrc"   "$HOME/.bashrc"
-link "$DOTFILES/.tmux.conf" "$HOME/.tmux.conf"
 link "$DOTFILES/pyrightconfig.json" "$HOME/pyrightconfig.json"
 
 echo "==> claude"
