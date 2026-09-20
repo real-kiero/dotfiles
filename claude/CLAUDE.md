@@ -15,6 +15,9 @@ Skip ceremony on trivial tasks — single file, no public interface or behaviour
 - When a task is ambiguous, name competing interpretations rather than silently picking one
 - Flag simpler approaches than what was asked
 - Otherwise skip the preamble: lead with the answer or change, no trailing summary of what was done
+- Concrete nouns and active verbs; plain words over jargon and idioms
+- Short sentences, even when the idea is complicated; cut words that carry no information
+- Bold, lists and headings only where they aid skimming; default to prose
 
 ## Code Style
 - Duplicate up to two similar instances; abstract on the third only if the result is simpler to follow than the duplication
