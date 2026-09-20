@@ -1,10 +1,9 @@
 # Global Claude Code Instructions
 
-Bias toward caution over speed. Skip ceremony on trivial tasks — single file, no public interface or behaviour change, roughly under 20 lines; everything else is non-trivial.
+Skip ceremony on trivial tasks — single file, no public interface or behaviour change, roughly under 20 lines; everything else is non-trivial.
 
 ## Versioning
 - Follow Semantic Versioning: `MAJOR.MINOR.PATCH`
-- PATCH for backwards-compatible fixes, MINOR for backwards-compatible features, MAJOR for breaking changes
 
 ## Git Commits
 - Use Conventional Commits: `type(scope): description`
@@ -27,7 +26,7 @@ Bias toward caution over speed. Skip ceremony on trivial tasks — single file, 
 ## Surgical Changes
 - Touch only what the task requires; every changed line should trace to the request
 - Don't "improve" adjacent code, comments, or formatting while you're in there
-- Don't refactor working code; match existing style even if you'd choose differently
+- Don't refactor working code
 - Clean up only your own mess: remove imports/variables/functions your change made unused
 - Flag pre-existing dead code; don't delete it
 
@@ -48,5 +47,5 @@ Bias toward caution over speed. Skip ceremony on trivial tasks — single file, 
 - Refactors: tests pass before and after; behaviour doesn't change unless that's the explicit goal
 - Tests added to satisfy this section are in scope, not scope creep
 - Before calling a change done, run the project's build/typecheck/lint if one exists — cheaper than a test, catches most AI-introduced breakage
-- Applies to non-trivial changes in projects with an existing or reasonable test harness. Trivial edits skip silently; non-trivial changes in harness-less repos still get a one-line note that no test was added
+- In repos with no test harness, note in one line that no test was added
 - For multi-step tasks, state a short plan with a verification check per step before starting
