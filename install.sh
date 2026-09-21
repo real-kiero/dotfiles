@@ -17,7 +17,6 @@ link "$DOTFILES/pyrightconfig.json" "$HOME/pyrightconfig.json"
 echo "==> claude"
 link "$DOTFILES/claude/CLAUDE.md"              "$HOME/.claude/CLAUDE.md"
 link "$DOTFILES/claude/settings.json"          "$HOME/.claude/settings.json"
-link "$DOTFILES/claude/statusline-command.sh"  "$HOME/.claude/statusline-command.sh"
 
 echo "==> nvim"
 NVIM_DIR="$HOME/.config/nvim"
