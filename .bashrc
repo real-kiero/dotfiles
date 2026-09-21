@@ -50,7 +50,7 @@ if ! shopt -oq posix; then
 fi
 
 # PATH modifications
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
 
 # Starship prompt
 eval "$(starship init bash)"
