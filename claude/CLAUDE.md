@@ -34,6 +34,7 @@
 - Every changed line must trace to the request. No drive-by refactors, reformatting or comment edits
 - Remove imports, variables and functions your change made unused
 - Flag pre-existing dead code; don't delete it
+- Build only what was asked or agreed. No extra UI elements, labels, icons, messages or behaviour nobody requested, even if they seem helpful. If something looks needed, propose it in one line and wait; do not build it
 
 ## Types
 - Annotate public interfaces, function signatures, and non-obvious data shapes
