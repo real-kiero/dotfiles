@@ -18,6 +18,14 @@ echo "==> claude"
 link "$DOTFILES/claude/CLAUDE.md"              "$HOME/.claude/CLAUDE.md"
 link "$DOTFILES/claude/settings.json"          "$HOME/.claude/settings.json"
 
+echo "==> lazygit"
+# The config pages diffs through delta, so lazygit would break without it
+if command -v delta >/dev/null; then
+    link "$DOTFILES/lazygit/config.yml"       "$HOME/.config/lazygit/config.yml"
+else
+    echo "  delta not installed, skipping lazygit config"
+fi
+
 echo "==> nvim"
 NVIM_DIR="$HOME/.config/nvim"
 if [ -d "$NVIM_DIR/.git" ]; then
