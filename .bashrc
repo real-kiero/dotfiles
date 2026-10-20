@@ -29,9 +29,9 @@ fi
 alias vf="nvim -c 'Telescope find_files'"
 alias vo="nvim -c 'Telescope oldfiles'"
 alias vim='nvim'
-alias ls='eza --icons'
-alias ll='eza -l --git --icons'
-alias lt='eza --tree --level=2 --git-ignore'
+alias ls='eza -la'
+alias ll='eza -la --git --icons'
+alias lt='eza --tree --level=2 --git-ignore --icons'
 alias cd='z'
 alias activate='source .venv/bin/activate'
 alias glf='git log --name-status --oneline'
