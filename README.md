@@ -1,6 +1,8 @@
 # Dotfiles
 
-My personal global config files for bash, neovim, and pyright. Run `install.sh` to symlink configs and clone the neovim config.
+My personal global config files for bash, neovim, lazygit, pyright and Claude Code. Run `install.sh` to symlink configs and clone the neovim config.
+
+`claude/CLAUDE.md` holds my global instructions for AI coding agents. Every session reads the whole file, so it is kept short.
 
 ## Dependencies
 
@@ -12,6 +14,7 @@ My personal global config files for bash, neovim, and pyright. Run `install.sh` 
 
 **Optional:**
 - [Delta](https://github.com/dandavison/delta) - Syntax-highlighted git diffs
+- [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) - AI coding agent
 - [Pyenv](https://github.com/pyenv/pyenv) - Python version management
 - [NVM](https://github.com/nvm-sh/nvm) - Node version management
 - [Pyright](https://github.com/microsoft/pyright) - Python type checker (install via `npm install -g pyright` or `pip install pyright`)
