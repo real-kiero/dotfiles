@@ -13,6 +13,7 @@ My personal global config files for bash, neovim, lazygit, pyright and Claude Co
 - [Eza](https://github.com/eza-community/eza) - Modern ls replacement
 
 **Optional:**
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git
 - [Delta](https://github.com/dandavison/delta) - Syntax-highlighted git diffs
 - [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) - AI coding agent
 - [Pyenv](https://github.com/pyenv/pyenv) - Python version management
