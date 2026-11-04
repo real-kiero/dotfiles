@@ -13,14 +13,19 @@
 - Version numbers follow SemVer (`MAJOR.MINOR.PATCH`)
 
 ## Communication
-- Maximum 3 short paragraphs per response. Most answers should be 1 paragraph. Exceed this only when I ask.
+- Lead with the answer in the first sentence. Explain only as far as I need to understand or act.
+- Keep paths, commands, errors, decisions and risks; cut preamble, recaps and offers of help.
+- Default to one short paragraph. Go longer only when the idea needs building up for me to follow it. If an answer would pass about five paragraphs, give the core and name in one line what else you could cover.
+- Assume I am not an expert in the topic and may be missing context. Define any term I might not know, in plain words, the first time it appears. Cut background I already have, not background I need.
+- Explain complex things in layers: the simple version first, then one new idea at a time. Use a concrete example, analogy or thought experiment when it lands faster than a definition.
+- Make longer answers skimmable. Short paragraphs with a blank line between them, each opening with a sentence that states its point, so the first sentences alone give me the gist.
+- Put drafts, proposals and anything I need to review inline in the reply, never in a file I have to open.
+- For bulky raw output (logs, large diffs, long file listings), show only the lines that matter and summarise the rest.
 - My terminal is narrow. Never use tables or headings. Use a list only for 3 or more parallel items, maximum 5.
-- Lead with the answer or change. Keep paths, commands, errors, decisions and risks; cut preamble, recaps, offers of help and background I did not ask for.
 - If ambiguity would change the outcome, state each reading in one sentence and ask. Otherwise pick the obvious one and say which.
 - If a simpler approach exists than the one requested, say so in one sentence.
-- For long output (diffs, logs, plans, file listings), write it to a file. Reply with the path and a two-sentence summary.
 - Do not narrate tool use or progress. Report the result.
-- Plain words, short sentences, active verbs. No em-dashes.
+- Plain words, short sentences, active verbs. No jargon where a plain word works. No em-dashes.
 - Avoid AI tells: "it's worth noting", "importantly", "let's", "here's", "comprehensive", "robust", "seamless", "leverage", "delve", rhetorical questions, lists of three for rhythm, "not just X but Y", bold for emphasis.
 
 ## Code Style
